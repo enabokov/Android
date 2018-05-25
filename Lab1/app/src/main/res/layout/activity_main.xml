@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/prodId"
+        android:layout_width="87dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/textview_prod"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkFrance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/prodId"
+        android:layout_below="@+id/prodId"
+        android:text="@string/chk_fr" />
+
+    <CheckBox
+        android:id="@+id/chkChina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chkFrance"
+        android:layout_below="@+id/chkUSA"
+        android:text="@string/chk_ch" />
+
+    <CheckBox
+        android:id="@+id/chkRussia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chkFrance"
+        android:layout_below="@+id/chkFrance"
+        android:text="@string/chk_ru" />
+
+    <CheckBox
+        android:id="@+id/chkSpain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chkFrance"
+        android:layout_below="@+id/chkRussia"
+        android:layout_marginTop="0dp"
+        android:text="@string/chk_sp" />
+
+    <CheckBox
+        android:id="@+id/chkUSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chkFrance"
+        android:layout_below="@+id/chkSpain"
+        android:text="@string/chk_us" />
+
+    <TextView
+        android:id="@+id/priceId"
+        android:layout_width="87dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/prodId"
+        android:layout_marginEnd="54dp"
+        android:text="@string/textview_price"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkLT500"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chkB500_1000"
+        android:layout_below="@+id/chkRussia"
+        android:text="@string/chk_lt500" />
+
+    <CheckBox
+        android:id="@+id/chkB500_1000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/priceId"
+        android:layout_below="@+id/chkFrance"
+        android:text="@string/chk_between500_1000" />
+
+    <CheckBox
+        android:id="@+id/chkGT1000"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/priceId"
+        android:layout_below="@+id/prodId"
+        android:text="@string/chk_gt1000" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/btn_display" />
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chkChina"
+        android:layout_above="@+id/btnDisplay"></ExpandableListView>
+
+</RelativeLayout>

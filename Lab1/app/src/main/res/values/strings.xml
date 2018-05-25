@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="chk_us">USA</string>
+    <string name="chk_fr">France</string>
+    <string name="chk_sp">Spain</string>
+    <string name="chk_ru">Russia</string>
+    <string name="chk_ch">China</string>
+    <string name="chk_lt500"> lower 500 </string>
+    <string name="chk_between500_1000">500 - 1000</string>
+    <string name="chk_gt1000"> higher 1000 </string>
+    <string name="textview_prod">Producer</string>
+    <string name="textview_price">Price</string>
+    <string name="btn_display">Display</string>
+</resources>
