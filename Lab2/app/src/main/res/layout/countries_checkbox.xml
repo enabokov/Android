@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/countries_checkbox_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/countries_checkbox" />
+
+    <CheckBox android:id="@+id/checkbox_china"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_china"/>
+
+    <CheckBox android:id="@+id/checkbox_usa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_usa"/>
+
+    <CheckBox android:id="@+id/checkbox_netherlands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_netherlands"/>
+
+    <CheckBox android:id="@+id/checkbox_ukraine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_ukraine"/>
+
+    <CheckBox android:id="@+id/checkbox_russia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_russia"/>
+
+    <CheckBox android:id="@+id/checkbox_france"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_france"/>
+
+    <CheckBox android:id="@+id/checkbox_spain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_spain"/>
+
+    <CheckBox android:id="@+id/checkbox_italy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_italy"/>
+</LinearLayout>

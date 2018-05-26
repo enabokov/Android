@@ -1,14 +1,21 @@
 <resources>
-    <string name="app_name">Lab1</string>
-    <string name="chk_us">USA</string>
-    <string name="chk_fr">France</string>
-    <string name="chk_sp">Spain</string>
-    <string name="chk_ru">Russia</string>
-    <string name="chk_ch">China</string>
-    <string name="chk_lt500"> lower 500 </string>
-    <string name="chk_between500_1000">500 - 1000</string>
-    <string name="chk_gt1000"> higher 1000 </string>
-    <string name="textview_prod">Producer</string>
-    <string name="textview_price">Price</string>
-    <string name="btn_display">Display</string>
+    <string name="app_name">Lab2</string>
+    <string name="dishes_spinner">Dishes</string>
+
+    <string name="countries_checkbox">Countries</string>
+    <string name="checkbox_china">China</string>
+    <string name="checkbox_usa">USA</string>
+    <string name="checkbox_netherlands">Netherlands</string>
+    <string name="checkbox_ukraine">Ukraine</string>
+    <string name="checkbox_russia">Russia</string>
+    <string name="checkbox_france">France</string>
+    <string name="checkbox_spain">Spain</string>
+    <string name="checkbox_italy">Italy</string>
+
+    <string name="prices_checkbox">Prices</string>
+    <string name="checkbox_500">Less 500</string>
+    <string name="checkbox_500_1000">500 - 1000</string>
+    <string name="checkbox_1000">More 1000</string>
+
+    <string name="submit">Submit</string>
 </resources>
